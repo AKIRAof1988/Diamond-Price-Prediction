@@ -1,0 +1,13 @@
+prefix=/Users/Diamond Price Prediction/venv
+exec_prefix=/Users/Diamond Price Prediction/venv
+libdir=/Users/Diamond Price Prediction/venv/lib
+sharedlibdir=/Users/Diamond Price Prediction/venv/lib
+includedir=/Users/Diamond Price Prediction/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
